@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Mocks_Cleared__c</fullName>
+    <formula>Mock_Test_1_Passed__c &amp;&amp; Mock_Test_2_Passed__c &amp;&amp; Mock_Test_3_Passed__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>All Mocks Cleared</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
