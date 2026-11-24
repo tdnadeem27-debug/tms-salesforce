@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gate_Voucher_On_Three_Mocks</fullName>
+    <active>true</active>
+    <errorConditionFormula>Voucher_Issued__c &amp;&amp; NOT(All_Mocks_Cleared__c)</errorConditionFormula>
+    <errorDisplayField>Voucher_Issued__c</errorDisplayField>
+    <errorMessage>Cannot issue a certification voucher until the candidate has cleared all 3 mock tests.</errorMessage>
+</ValidationRule>
