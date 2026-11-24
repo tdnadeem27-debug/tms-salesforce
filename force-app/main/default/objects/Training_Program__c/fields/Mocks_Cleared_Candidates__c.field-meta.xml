@@ -3,7 +3,7 @@
     <fullName>Mocks_Cleared_Candidates__c</fullName>
     <label>Mocks Cleared Candidates</label>
     <summaryFilterItems>
-        <field>Program_Enrollment__c.Flag__c</field>
+        <field>Program_Enrollment__c.All_Mocks_Cleared__c</field>
         <operation>equals</operation>
         <value>True</value>
     </summaryFilterItems>
