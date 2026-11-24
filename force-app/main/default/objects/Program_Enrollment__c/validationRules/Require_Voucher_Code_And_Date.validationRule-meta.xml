@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Voucher_Code_And_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>Voucher_Issued__c &amp;&amp; (ISBLANK(Voucher_Code__c) || ISBLANK(Voucher_Issued_Date__c))</errorConditionFormula>
+    <errorMessage>Please enter both a Voucher Code and Voucher Issued Date when issuing a voucher.</errorMessage>
+</ValidationRule>
